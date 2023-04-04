@@ -17,4 +17,5 @@ resource "jenkins_job" "job" {
   lifecycle {
     ignore_changes = [template]
   }
+
 }
