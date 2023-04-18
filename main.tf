@@ -22,7 +22,7 @@ resource "jenkins_job" "job" {
 }
 
 data "aws_instance" "jenkins" {
-  instance_id = "i-0b71626c578de6572"
+  instance_id = "i-0c1d10d96d3acb164"
 }
 
 resource "aws_route53_record" "jenkins" {
